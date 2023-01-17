@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #1e1e1e;
+    background-color: #333333;
+    font-family: "Helvetica", "Arial", sans-serif;
+    line-height: 1.2;
+    margin: 0;
+}
+
+button,
+input {
+    font-family: inherit;
+    font-size: 100%;
+    appearance: none;
+}
+
+.bodyWrapper {
+    display: flex;
+    background-color: rgb(245, 245, 245);
+    max-width: 1000px;
+    margin: 0 auto 0 auto;
+}
+
+.bodyWrapper > .imageSidebar{
+    flex: 1 1 auto;
+}
+
+.imageSidebar {
+    height: 100vh;
+    background-image: linear-gradient(to right, rgb(57, 204, 57), rgb(33, 177, 182));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.imageSidebar-logo {
+    margin-top: 7rem;
+    padding: 2rem 0;
+    background-color: #33333366;
+    color: white;
+    font-size: 3rem;
+    line-height: 1;
+}
+
+main {
+    max-width: 630px;
+}
+
+.callToAction {
+    font-weight: bold;
+    height: 5rem;
+    margin: 5rem 0 4rem 2rem;
+}
+
+.signUp > div {
+    padding-left: 2rem;
+    background-color: white;
+}
+
+.signUp button[type=submit] {
+    margin-left: 2rem;
+}
+
+main form + p {
+    margin-left: 2rem;
+}
+
