@@ -37,8 +37,14 @@ input {
     text-align: center;
 }
 
+.imageSidebar-logoWrapper {
+    height: 16rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
 .imageSidebar-logo {
-    margin-top: 7rem;
     padding: 2rem 0;
     background-color: #33333366;
     color: white;
@@ -52,7 +58,7 @@ main {
 
 .callToAction {
     font-weight: bold;
-    height: 14rem;
+    height: 16rem;
     padding: 7rem 7rem 2rem 2rem;
 }
 
