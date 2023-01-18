@@ -118,6 +118,12 @@ p.callToAction-standOut {
     border-radius: 0.25rem;
     padding: 0.25rem 0 0.25rem 0.50rem;
     font-size: 0.85rem;
+    outline: none;
+}
+
+.signUp-field input:focus {
+    border-color: saddlebrown;
+    box-shadow: 1px 1px 5px;
 }
 
 .signUp button[type=submit] {
