@@ -59,15 +59,15 @@ input {
     color: inherit;
 }
 
-.callToAction {
-    font-size: 1.5rem;
-    font-weight: bold;
+.callToAction-wrapper {
     min-height: 16rem;
     padding: 7rem 7rem 2rem 2rem;
 }
 
 .callToAction p{
     margin: 0;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 
 .signUp-fieldsWrapper {
