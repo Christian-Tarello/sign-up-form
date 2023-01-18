@@ -59,15 +59,19 @@ input {
     color: inherit;
 }
 
-.callToAction-wrapper {
+.callToAction {
     min-height: 16rem;
-    padding: 7rem 7rem 2rem 2rem;
+    padding: 5rem 7rem 2rem 2rem;
 }
 
 .callToAction p{
     margin: 0;
     font-weight: bold;
     font-size: 1.5rem;
+}
+
+p.callToAction-standOut {
+    margin-top: 1rem;
 }
 
 .signUp-fieldsWrapper {
