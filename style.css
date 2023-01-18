@@ -125,6 +125,10 @@ p.callToAction-standOut {
     border-color: red;
 }
 
+.signUp-field input:valid {
+    border-color: #009269;
+}
+
 .signUp-field input:focus,
 .signUp-field input:focus:placeholder-shown {
     border-color: saddlebrown;
