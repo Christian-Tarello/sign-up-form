@@ -126,6 +126,10 @@ p.callToAction-standOut {
     box-shadow: 1px 1px 5px;
 }
 
+.signUp-field input:invalid {
+    border-color: red;
+}
+
 .signUp button[type=submit] {
     margin-left: 2rem;
     padding: 0.5rem 2.5rem;
