@@ -42,10 +42,21 @@ input {
 
 .imageSidebar-logo {
     padding: 2rem 0;
-    background-color: #33333366;
+    background-color: #33333388;
     color: white;
     font-size: 3rem;
     line-height: 1;
+}
+
+.imageSidebar-imageCredit {
+    color: white;
+    background-color: #33333388;
+    width: 30ch;
+    font-size: 0.75rem;
+}
+
+.imageSidebar-imageCredit a {
+    color: inherit;
 }
 
 .callToAction {
