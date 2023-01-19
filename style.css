@@ -101,7 +101,8 @@ p.callToAction-standOut {
 }
 
 .signUp-field label,
-.signUp-field input {
+.signUp-field input,
+.signUp-field span {
     display: block;
     width: 100%;
 }
@@ -137,6 +138,33 @@ p.callToAction-standOut {
 
 .signUp-field input:placeholder-shown {
     border-color: #E5E7EB;
+}
+
+.signUp-field input+span {
+    font-size: 0.75rem;
+    margin: 0.1rem 0.2rem;
+}
+
+.signUp-field input:invalid+span::before {
+    content: '✖';
+    color: red;
+}
+
+.signUp-field input:placeholder-shown+span::before,
+.signUp-field input:focus+span::before {
+    content: ' ';
+    color: white;
+}
+
+.signUp-field input:invalid+span::after {
+    content: 'is not a valid ' attr(data-commonName) '.';
+    color: red;
+}
+
+.signUp-field input:placeholder-shown+span::after,
+.signUp-field input:focus+span::after {
+    content: ' ';
+    color: white;
 }
 
 .signUp button[type=submit] {
