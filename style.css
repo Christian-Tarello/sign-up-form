@@ -116,6 +116,7 @@ p.callToAction-standOut {
 
 .signUp-field input {
     border: #E5E7EB solid 1px;
+    background-color: #F9F9F9;
     border-radius: 0.25rem;
     padding: 0.25rem 0 0.25rem 0.50rem;
     font-size: 0.85rem;
@@ -138,6 +139,10 @@ p.callToAction-standOut {
 
 .signUp-field input:placeholder-shown {
     border-color: #E5E7EB;
+}
+
+.signUp-field input:hover {
+    background-color: #E9E9E9;
 }
 
 .signUp-field input+span {
