@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -33,18 +35,30 @@ input {
     text-align: center;
 }
 
-.imageSidebar-logoWrapper {
+.imageSidebar-logoContainer {
     height: 16rem;
     display: flex;
     flex-direction: column;
     justify-content: end;
 }
 
-.imageSidebar-logo {
-    padding: 2rem 0;
+.imageSidebar-logoWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #33333388;
+    padding: 0.25rem 0;
+}
+
+.imageSidebar-logoWrapper svg {
+    max-width: 8rem;
+    max-height: 8rem;
+}
+
+.imageSidebar-logoWrapper span {
     color: white;
-    font-size: 3rem;
+    font-size: 5rem;
+    font-family: 'Sofia Sans', 'Courier New', Courier, monospace;
     line-height: 1;
 }
 
