@@ -137,7 +137,8 @@ p.callToAction-standOut {
     outline: none;
 }
 
-.signUp-field input:invalid {
+.signUp-field input:invalid,
+.signUp-field input.customError:invalid {
     border-color: red;
 }
 
@@ -162,28 +163,30 @@ p.callToAction-standOut {
 .signUp-field input+span {
     font-size: 0.75rem;
     margin: 0.1rem 0.2rem;
+    color: red;
 }
 
-.signUp-field input:invalid+span::before {
+.signUp-field input:invalid+span::before,
+.signUp-field input.customError:invalid+span::before{
     content: '✖';
-    color: red;
 }
 
 .signUp-field input:placeholder-shown+span::before,
 .signUp-field input:focus+span::before {
-    content: ' ';
-    color: white;
+    content: '';
 }
 
 .signUp-field input:invalid+span::after {
     content: 'is not a valid ' attr(data-commonName) '.';
-    color: red;
+}
+
+.signUp-field input.customError:invalid+span::after {
+    content: '';
 }
 
 .signUp-field input:placeholder-shown+span::after,
 .signUp-field input:focus+span::after {
-    content: ' ';
-    color: white;
+    content: '';
 }
 
 .signUp button[type=submit] {
