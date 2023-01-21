@@ -24,6 +24,8 @@ input {
     background-color: #f5f5f5;
 }
 
+/* ImageSidebar */
+
 .imageSidebar {
     min-height: 100vh;
     width: 800px;
@@ -73,6 +75,8 @@ input {
     color: inherit;
 }
 
+/* callToAction */
+
 .callToAction {
     min-height: 16rem;
     padding: 5rem 7rem 2rem 2rem;
@@ -87,6 +91,8 @@ input {
 p.callToAction-standOut {
     margin-top: 1rem;
 }
+
+/* signUp */
 
 .signUp-fieldsWrapper {
     padding: 1rem 12rem 2rem 2rem;
@@ -137,6 +143,8 @@ p.callToAction-standOut {
     outline: none;
 }
 
+/* signUp border changes */
+
 .signUp-field input:invalid,
 .signUp-field input.customError:invalid {
     border-color: red;
@@ -156,9 +164,13 @@ p.callToAction-standOut {
     border-color: #E5E7EB;
 }
 
+/* signUp background changes */
+
 .signUp-field input:hover {
     background-color: #E9E9E9;
 }
+
+/* signUp generated content */
 
 .signUp-field input+span {
     font-size: 0.75rem;
@@ -189,6 +201,8 @@ p.callToAction-standOut {
     content: '';
 }
 
+/* signUp submit button */
+
 .signUp button[type=submit] {
     margin-left: 2rem;
     padding: 0.5rem 2.5rem;
@@ -199,6 +213,8 @@ p.callToAction-standOut {
     color: #f5f5f5;
     font-weight: bold;
 }
+
+/* loginAlternative */
 
 .loginAlternative {
     margin-left: 2rem;
